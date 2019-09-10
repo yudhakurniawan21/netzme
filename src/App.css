@@ -1,0 +1,67 @@
+.App {
+  padding: 10px 10px;
+}
+
+.App-header {
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+.Title p {
+  border: 1px solid rgb(0, 0, 0);
+  float: left;
+  padding: 10px;
+  background: #ccc;
+  padding: 20px;
+  margin-top: 0px;
+}
+
+.Navbar .App-link {
+  /* color: #61dafb; */
+  float: right;
+  background-color: #f1f1f1;
+  padding: 10px;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.Section {
+  clear: both;
+  border-top: 1px solid black;
+  padding: 5px;
+}
+
+.Table {
+  float: left;
+}
+
+.TableSection,
+th,
+tr,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+}
+
+.bar {
+  background-color: #4caf50;
+}
+
+.App-Section2 {
+  float: right;
+  margin: 0px 20px;
+  padding-right: 20px;
+  border: 1px solid black;
+}
