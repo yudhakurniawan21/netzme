@@ -12,8 +12,6 @@ function App() {
   const [viewData, setDataView] = useState(false);
   const [dataOk, setDataOK] = useState(false);
 
-  // useEffect(() => {}, []);
-
   useEffect(() => {
     console.log(viewData);
     if (viewData) {
@@ -41,10 +39,6 @@ function App() {
 
   useEffect(() => {
     console.log(data);
-    // data.map(datas => {
-    //   parseInt(datas.trx_amount) / (90000 + 500000 + 70000);
-    // });
-    // return data;
   }, [data]);
 
   return (
